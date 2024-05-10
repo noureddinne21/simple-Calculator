@@ -36,8 +36,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 num1= Integer.parseInt(editText1.getText().toString());
                 num2= Integer.parseInt(editText2.getText().toString());
-                result=+num1+num2;
-                textView.setText("The Result : "+result);
+                textView.setText("The Result : "+sum(num1,num2));
                 editText1.setText("");
                 editText2.setText("");
 
@@ -48,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 num1= Integer.parseInt(editText1.getText().toString());
                 num2= Integer.parseInt(editText2.getText().toString());
-                textView.setText("The Result : "+sum(num1,num2));
+                textView.setText("The Result : "+mins(num1,num2));
                 editText1.setText("");
                 editText2.setText("");
 
@@ -86,11 +85,14 @@ public class MainActivity extends AppCompatActivity {
 
 
     public static String sum(int n1,int n2){
-        result=+n1*n2;
+        result=+n1+n2;
         return String.valueOf(result);
     }
 
-
+    public static String mins(int n1,int n2){
+        result=+n1-n2;
+        return String.valueOf(result);
+    }
 
 
 
