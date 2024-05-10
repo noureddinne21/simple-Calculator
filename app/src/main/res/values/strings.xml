@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application Testing</string>
+    <string name="Button_Sum">Sum</string>
+    <string name="Button_Mult">Mult</string>
+</resources>
