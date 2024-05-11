@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
 //                num1= Integer.parseInt(editText1.getText().toString());
 //                num2= Integer.parseInt(editText2.getText().toString());
                 //textView.setText("The Result : "+mins(num1,num2));
-                showResult(String.valueOf(mins(num1,num2)));
+                //showResult(String.valueOf(mins(num1,num2)));
 //                editText1.setText("");
 //                editText2.setText("");
 
@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
 //                num1= Integer.parseInt(editText1.getText().toString());
 //                num2= Integer.parseInt(editText2.getText().toString());
                 //textView.setText("The Result : "+div(num1,num2));
-                showResult(String.valueOf(div(num1,num2)));
+                //showResult(String.valueOf(div(num1,num2)));
 //                editText1.setText("");
 //                editText2.setText("");
 
